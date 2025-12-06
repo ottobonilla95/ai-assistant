@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-calendar-assistant",
+  "version": "1.0.0",
+  "description": "WhatsApp AI agent with LangChain",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/langgraph": "^0.2.0",
+    "@langchain/openai": "^0.3.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^128.0.0",
+    "openai": "^4.20.1",
+    "twilio": "^4.19.0",
+    "zod": "^3.22.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
